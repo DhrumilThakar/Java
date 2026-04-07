@@ -1,4 +1,4 @@
-import java.util.*;
+    import java.util.*;
 
 public class arrays {
     Scanner s = new Scanner(System.in);
