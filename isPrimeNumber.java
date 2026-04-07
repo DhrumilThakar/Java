@@ -19,8 +19,20 @@ public class isPrimeNumber {
         }
         return false;
     }
+
+    public static String numbersOfPrime(int number)
+    {
+        ArrayList<Integer> list = new ArrayList<>();
+            for(int i =1;i<=number;i++){
+                if(isPrime(i)){
+                    list.add(i);
+                }
+            }
+        return list.toString();
+
+    }
     public static void main(String[] args) {
-        System.out.println(isPrime(8));
+        System.out.println(numbersOfPrime(5));
     }
     
 }
